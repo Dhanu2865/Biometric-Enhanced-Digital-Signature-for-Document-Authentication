@@ -1,4 +1,4 @@
-# Biometric Enhanced Digital Signature for Document Authentication
+<img width="941" height="323" alt="image" src="https://github.com/user-attachments/assets/66e6e1d6-7ce8-41ba-9f3f-acda7a754656" /># Biometric Enhanced Digital Signature for Document Authentication
 
 ## Overview
 
@@ -27,50 +27,17 @@ This project implements a **Biometric Enhanced Digital Signature (BEDS)** system
 - **File I/O** for storing documents, keys, and signatures  
 
 ---
-
-## Project Structure
-# Biometric Enhanced Digital Signature for Document Authentication
-
-## Overview
-
-This project implements a **Biometric Enhanced Digital Signature (BEDS)** system using Java. It combines digital signatures with biometric verification (fingerprints) to ensure that a document is signed by the **genuine user**. The system enhances security beyond traditional digital signatures by binding the signature to a biometric key derived from a fingerprint image.
-
----
-
-## Features
-
-- **Key Generation:** Uses Elliptic Curve Digital Signature Algorithm (ECDSA) to generate public-private key pairs.  
-- **Biometric Binding:** Encrypts the private key with a key derived from a fingerprint image, ensuring that only the correct user can sign.  
-- **Document Signing:** Supports signing any text (`.txt`) document with biometric-enhanced digital signatures.  
-- **Receiver Verification:** The receiver can verify the authenticity and integrity of the document using the sender's public key.  
-- **Intermediate Debugging:** Prints detailed intermediate steps, including fingerprint hash, document content, and partial signature for easy monitoring.  
-- **Socket Communication:** Sender and receiver communicate over TCP sockets for real-time document transfer.  
-
----
-
-## Technologies Used
-
-- **Java** for application logic  
-- **AES** for encrypting the private key  
-- **ECDSA** for digital signatures  
-- **Fuzzy hashing** of fingerprint images to generate AES keys  
-- **Socket Programming** for sender-receiver communication  
-- **File I/O** for storing documents, keys, and signatures  
-
----
-
 ## Project Structure
 
 crypto_project/
 │
-├─ sender/ # Sender-side Java code
-├─ receiver/ # Receiver-side Java code
-├─ utils/ # Utility classes: ECDSA, AES, Hash, File handling
-├─ sender_data/ # Automatically generated sender keys, documents, and signatures
-├─ receiver_data/ # Automatically stored received documents, signatures, and verification results
-├─ fingerprint_sample/ # Sample fingerprint images
+├─ sender/
+├─ receiver/
+├─ utils/
+├─ sender_data/
+├─ receiver_data/
+├─ fingerprint_sample/
 └─ README.md
-
 
 ---
 
