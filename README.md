@@ -64,25 +64,24 @@ This project implements a **Biometric Enhanced Digital Signature (BEDS)** system
 
 ## Usage
   - description: "Clone the repository"
-   - code: |
+    code: |
       git clone https://github.com/username/crypto_project.git
 
   - description: "Navigate to the project folder"
-   - code: |
+   code: |
       cd crypto_project
 
   - description: "Compile all Java files"
-   - code: |
+    code: |
       javac utils/*.java sender/*.java receiver/*.java
 
   - description: "Run the receiver"
-   - code: |
+    code: |
       java receiver.Receiver
 
   - description: "Run the sender"
-   - code: |
+    code: |
       java sender.Sender
 
   - description: "Monitor the terminal for intermediate results and signature verification"
-   - code: |
       # Watch the console output
