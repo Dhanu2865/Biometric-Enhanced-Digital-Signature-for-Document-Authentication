@@ -1,4 +1,4 @@
-<img width="941" height="323" alt="image" src="https://github.com/user-attachments/assets/66e6e1d6-7ce8-41ba-9f3f-acda7a754656" /># Biometric Enhanced Digital Signature for Document Authentication
+# Biometric Enhanced Digital Signature for Document Authentication
 
 ## Overview
 
@@ -29,15 +29,8 @@ This project implements a **Biometric Enhanced Digital Signature (BEDS)** system
 ---
 ## Project Structure
 
-crypto_project/
-│
-├─ sender/
-├─ receiver/
-├─ utils/
-├─ sender_data/
-├─ receiver_data/
-├─ fingerprint_sample/
-└─ README.md
+<img width="841" height="223" alt="image" src="https://github.com/user-attachments/assets/66e6e1d6-7ce8-41ba-9f3f-acda7a754656" /># Biometric Enhanced Digital Signature for Document Authentication
+
 
 ---
 
@@ -71,25 +64,25 @@ crypto_project/
 
 ## Usage
   - description: "Clone the repository"
-    code: |
+   - code: |
       git clone https://github.com/username/crypto_project.git
 
   - description: "Navigate to the project folder"
-    code: |
+   - code: |
       cd crypto_project
 
   - description: "Compile all Java files"
-    code: |
+   - code: |
       javac utils/*.java sender/*.java receiver/*.java
 
   - description: "Run the receiver"
-    code: |
+   - code: |
       java receiver.Receiver
 
   - description: "Run the sender"
-    code: |
+   - code: |
       java sender.Sender
 
   - description: "Monitor the terminal for intermediate results and signature verification"
-    code: |
+   - code: |
       # Watch the console output
